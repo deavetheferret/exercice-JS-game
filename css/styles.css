@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   font-family: 'Kanit', sans-serif;
+  color: #fff
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,400;0,700;0,900;1,100;1,400;1,700;1,900&display=swap');
@@ -10,6 +11,18 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: rgb(2,0,36);
+  background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 22%, rgba(0,212,255,1) 100%);
 }
 
-h2
+header {
+  padding: 50px;
+  font-size: 50px;
+}
+
+h1 span {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 25px;
+  color: rgba(9,9,121,1);
+}

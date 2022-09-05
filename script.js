@@ -23,4 +23,4 @@ var checkAnswer = function() {
   }
 }
 
-var interval = setInterval(updateTimer, 1000)
+var interval = setInterval(updateTimer, 500)
