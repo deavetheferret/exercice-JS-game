@@ -24,3 +24,24 @@ var checkAnswer = function() {
 }
 
 var interval = setInterval(updateTimer, 800)
+
+var selectedAnswer1 = document.querySelector('.answer-item-1')
+var selectedAnswer2 = document.querySelector('.answer-item-2')
+var selectedAnswer3 = document.querySelector('.answer-item-3')
+
+var onSelected1 = function() {
+  console.log('Selected 1!');
+  document.querySelector('.answer-item-1').classList.toggle('selected')
+}
+
+var onSelected2 = function() {
+  console.log('Selected 2!');
+}
+
+var onSelected3 = function() {
+  console.log('Selected 3!');
+}
+
+selectedAnswer1.addEventListener('click', onSelected1)
+selectedAnswer2.addEventListener('click', onSelected2)
+selectedAnswer3.addEventListener('click', onSelected3)

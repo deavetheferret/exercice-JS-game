@@ -69,6 +69,12 @@ label:active {
   box-shadow: inset 5px 0 10px #00000022;
 }
 
+.selected {
+  background-color: rgba(2,0,36,1);
+  color: #fff;
+  box-shadow: inset 5px 0 10px #00000022;
+}
+
 .message {
   text-align: center;
 }
