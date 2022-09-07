@@ -20,9 +20,55 @@ header {
   font-size: 50px;
 }
 
+h1 {
+  line-height: 105px;
+}
+
 h1 span {
   background-color: #fff;
   padding: 20px;
   border-radius: 25px;
   color: rgba(9,9,121,1);
+}
+
+.timer,
+h2 {
+  text-align: center;
+}
+
+.timer {
+  font-size: 60px;
+  padding: 40px;
+}
+
+.answer {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+input[type="radio"] {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+label {
+  background-color: #fff;
+  color: rgba(9,9,121,1);
+  padding: 10px 20px;
+  border-radius: 10px;
+  transition: background-color cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+  box-shadow: 5px 0 10px #00000022;
+}
+
+label:focus,
+label:hover,
+label:active {
+  background-color: rgba(9,9,121,1);
+  color: #fff;
+  box-shadow: inset 5px 0 10px #00000022;
+}
+
+.message {
+  text-align: center;
 }
