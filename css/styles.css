@@ -16,6 +16,7 @@ body {
 }
 
 header {
+  margin-top: 100px;
   padding: 50px;
   font-size: 50px;
 }
@@ -52,18 +53,19 @@ input[type="radio"] {
   appearance: none;
 }
 
-label {
+input {
   background-color: #fff;
   color: rgba(9,9,121,1);
   padding: 10px 20px;
   border-radius: 10px;
   transition: background-color cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
   box-shadow: 5px 0 10px #00000022;
+  user-select: none;
 }
 
-label:focus,
-label:hover,
-label:active {
+input:focus,
+input:hover,
+input:active {
   background-color: rgba(9,9,121,1);
   color: #fff;
   box-shadow: inset 5px 0 10px #00000022;
